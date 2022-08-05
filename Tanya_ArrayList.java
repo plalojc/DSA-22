@@ -22,38 +22,7 @@ class ArrayList {
         
     }
     
-    // public void insert(int element,int index){
-        
-    //     if(index<0 || index>arr.length){
-    //         System.out.println("Invalid index");
-    //     }
-        
-    //     else if(count+1==arr.length){
-    //         int arrNew[] = new int[2*arr.length];
-    //         for(int i=0;i<=count;i++){
-    //              arrNew[i]=arr[i];
-    //          }
-    //          arr=arrNew;
-             
-    //          for(int i=count;i>=index;i--){
-    //              arr[i+1]=arr[i];
-    //          }
-             
-    //          arr[index-1]=element;
-    //          count++;
-    //     }
-             
-             
-    //          else{
-    //              for(int i=count;i>=index;i--){
-    //              arr[i+1]=arr[i];
-    //          }
-             
-    //          arr[index-1]=element;
-    //          count++;
-    //          }
-             
-    // }
+    
     
     public boolean contains(int e){
         for(int i=0;i<=count;i++){
@@ -64,12 +33,7 @@ class ArrayList {
         return false;
     }
     
-    // public void delete(int index){
-    //     if(count>-1){
-    //         arr[index]=0;
-    //     }
-        
-    // }
+    
     
     public int size(){
         int s=count+1;
